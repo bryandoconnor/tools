@@ -1,0 +1,39 @@
+.Hero-padding {
+  padding:100px 20px;
+}
+
+@media (max-width: 991px) {
+  .Hero-padding {
+    padding:50px 5px;
+  }
+}
+
+.Hero-textshadow {
+  text-shadow:2px 2px 5px #000;
+}
+
+.SomeHero-div {
+  background-image:url(https://s3-us-west-2.amazonaws.com/tranontmedia/Images/Site+Links/RetailPartnersHero.jpg);
+  background-size:cover;
+  background-position:center -200px;
+  background-repeat:no-repeat;
+}
+
+@media (max-width: 1199px) {
+  .SomeHero-div {
+    background-position:center -120px;
+  }
+}
+
+@media (max-width: 991px) {
+  .SomeHero-div {
+    background-position:center -80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .SomeHero-div {
+    background-position:center center;
+  }
+}
+

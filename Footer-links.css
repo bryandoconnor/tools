@@ -1,0 +1,13 @@
+.Footer-link {
+  color:#fff;
+  text-decoration:none;
+  font-family:Montserrat-Alternates, sans-serif;
+  font-size:14px;
+  margin:5px auto;
+}
+
+.Footer-link:hover {
+  color:#000;
+  text-decoration:none;
+  padding:5px;
+}

@@ -1,0 +1,66 @@
+.Testimony-block {
+  position:relative;
+  width:300px;
+  margin:10px 20px;
+  background-size:cover;
+  display:inline-block;
+  text-align:center;
+}
+
+@media (max-width: 767px) {
+  .Testimony-block {
+    margin:10px auto;
+  }
+}
+
+.Testimony-image {
+  opacity:1;
+  display:block;
+  width:100%;
+  height:auto;
+  transition-duration:.8s;
+}
+
+.Testimony-middle1 {
+  transition-duration:.8s;
+  opacity:1;
+  position:absolute;
+  top:50%;
+  left:0;
+  transform:translate(0%, -50%);
+}
+
+.Testimony-middle2 {
+  transition-duration:.8s;
+  opacity:0;
+  position:absolute;
+  top:50%;
+  left:0;
+  transform:translate(0%, -50%);
+  text-align:center;
+}
+
+.Testimony-block:hover .Testimony-image {
+  opacity:.1;
+}
+
+.Testimony-block:hover .Testimony-middle1 {
+  opacity:0;
+}
+
+.Testimony-block:hover .Testimony-middle2 {
+  opacity:1;
+}
+
+.Testimony-heading {
+  color:#000;
+  font-size:20px;
+  font-family:Montserrat, sans-serif;
+}
+
+.Testimony-text {
+  color:#1d4cd6;
+  font-size:16px;
+  font-family:Montserrat, sans-serif;
+}
+

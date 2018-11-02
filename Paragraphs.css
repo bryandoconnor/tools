@@ -1,0 +1,141 @@
+.Paragraph-xlarge {
+  margin:5px auto;
+  padding:10px 40px;
+  font-size:17px;
+  font-family:'Montserrat Alternatives', sans-serif;
+}
+
+@media (max-width:767px) {
+  .Paragraph-xlarge {
+    margin:10px auto;
+    padding:10px 5px;
+    font-size:18px;
+  }
+}
+
+.Paragraph-large {
+  margin:5px auto;
+  padding:10px 40px;
+  font-size:13px;
+  font-family:'Montserrat Alternatives', sans-serif;
+}
+
+@media (max-width:767px) {
+  .Paragraph-large {
+    margin:15px auto;
+    padding:10px 30px;
+    font-size:15px;
+  }
+}
+
+.Paragraph-medium {
+  margin:5px auto;
+  padding:10px 40px;
+  font-size:12px;
+  font-family:'Montserrat Alternatives', sans-serif;
+}
+
+@media (max-width:767px) {
+  .Paragraph-medium {
+    margin:15px auto;
+    padding:10px 30px;
+    font-size:14px;
+  }
+}
+
+.Paragraph-small {
+  margin:5px auto;
+  padding:10px 40px;
+  font-size:10px;
+  font-family:'Montserrat Alternatives', sans-serif;
+}
+
+@media (max-width:767px) {
+  .Paragraph-small {
+    margin:15px auto;
+    padding:10px 30px;
+    font-size:12px;
+  }
+}
+
+.Paragraph-xsmall {
+  margin:5px auto;
+  padding:10px 40px;
+  font-size:8px;
+  font-family:'Montserrat Alternatives', sans-serif;
+}
+
+@media (max-width:767px) {
+  .Paragraph-xsmall {
+    margin:15px auto;
+    padding:10px 30px;
+    font-size:10px;
+  }
+}
+
+.News-paragraph {
+  font-family:Montserrat, sans-serif;
+  color:#77777a;
+  padding:10px;
+  margin:10px;
+}
+
+.TrainingVideo-paragraph {
+  font-family:Montserrat, sans-serif;
+  padding:10px;
+  margin:10px;
+}
+
+@media (max-width: 991px) {
+  .TrainingVideo-paragraph {
+    font-size:9px;
+  }
+}
+
+@media (max-width: 991px) {
+  .News-paragraph {
+    font-size:9px;
+  }
+}
+
+.Actions-paragraph {
+  font-family:Montserrat, sans-serif;
+  color:#77777a;
+  padding:10px;
+  margin:0px auto;
+  font-size:12px;
+  display:flex;
+  word-wrap:break-word;
+}
+
+@media (max-width: 991px) {
+  .Actions-paragraph {
+    font-size:9px;
+  }
+}
+
+.Download-paragraph {
+  font-family:Montserrat, sans-serif;
+  color:#77777a;
+  padding:0px;
+  margin:7px auto;
+  font-size:10px;
+}
+
+.Download-paragraph2 {
+  font-family:Montserrat, sans-serif;
+  color:#77777a;
+  padding:0px;
+  margin:7px auto;
+  font-size:10px;
+}
+
+@media (max-width: 991px) {
+  .Download-paragraph {
+    font-size:8px;
+  }
+}
+
+.Download-paragraph:hover {
+  color:#1d4cd6;
+}

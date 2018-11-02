@@ -1,0 +1,11 @@
+.Full-hr {
+  width:80%;
+  height:1px;
+  background-color:transparent;
+}
+
+.Half-hr {
+  width:50%;
+  height:1px;
+  background-color:transparent;
+}
