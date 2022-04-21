@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        font-family: "Lato", sans-serif;
+      }
+
+      .nav-open-btn {
+        cursor:pointer;
+        font-size:30px;
+        position:absolute;
+        right:10px;
+      }
+
+      .sidenav {
+        background-color: #111;
+        height: 100%;
+        overflow-x: hidden;
+        padding-top: 60px;
+        position: fixed;
+        right: 0;
+        text-align:center;
+        top: 0;
+        transition: 0.5s;
+        width: 0;
+        z-index: 1;
+      }
+
+      .sidenav a {
+        color: #818181;
+        display: block;
+        font-size: 25px;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+
+      .sidenav a:hover{
+        color: #f1f1f1;
+      }
+
+      .sidenav .closebtn {
+        font-size: 36px;
+        position: absolute;
+        right: 25px;
+        margin-left: 50px;
+        top: 0;
+      }
+
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+
+      @media (min-width: 575px) {
+        .sidenav {display: block;}
+        .sidenav a {display: block;}
+        .nav-open-btn {display: block;}
+      }
+
+      @media (min-width: 767px) {
+        .sidenav {display: none;}
+        .sidenav a {display: none;}
+        .nav-open-btn {display: none;}
+      }
+
+      @media (min-width: 991px) {
+        .sidenav {display: none;}
+        .sidenav a {display: none;}
+        .nav-open-btn {display: none;}
+      }
+
+      @media (min-width: 1199px) {
+        .sidenav {display: none;}
+        .sidenav a {display: none;}
+        .nav-open-btn {display: none;}
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="/">My Services</a>
+      <a href="/">Announcements</a>
+      <a href="/">Andrea</a>
+      <a href="/">Help</a>
+    </div>
+
+    <span class="nav-open-btn" onclick="openNav()">&#9776;</span>
+
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+  </body>
+</html>
